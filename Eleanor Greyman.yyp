@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,8 +34,11 @@
   },
   "name":"Eleanor Greyman",
   "resources":[
+    {"id":{"name":"obj_bakery_interact","path":"objects/obj_bakery_interact/obj_bakery_interact.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
     {"id":{"name":"rm_town","path":"rooms/rm_town/rm_town.yy",},},
+    {"id":{"name":"spr_bakery_bg_pl","path":"sprites/spr_bakery_bg_pl/spr_bakery_bg_pl.yy",},},
     {"id":{"name":"spr_ellie_pl_walk","path":"sprites/spr_ellie_pl_walk/spr_ellie_pl_walk.yy",},},
     {"id":{"name":"spr_ellie_pl","path":"sprites/spr_ellie_pl/spr_ellie_pl.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
@@ -47,6 +50,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_town","path":"rooms/rm_town/rm_town.yy",},},
+    {"roomId":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
