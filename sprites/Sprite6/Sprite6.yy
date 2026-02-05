@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Sprite6",
   "bboxMode":0,
-  "bbox_bottom":1919,
+  "bbox_bottom":1023,
   "bbox_left":0,
-  "bbox_right":2559,
+  "bbox_right":1364,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1920,
+  "height":1024,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"20cc0a39-5c1f-46b2-b153-026e75128071","blendMode":0,"displayName":"default","isLocked":false,"name":"20cc0a39-5c1f-46b2-b153-026e75128071","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"bgs",
+    "path":"folders/Sprites/bgs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":2560,
+  "width":1365,
 }
