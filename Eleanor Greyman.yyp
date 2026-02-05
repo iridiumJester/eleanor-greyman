@@ -40,6 +40,7 @@
     {"id":{"name":"spr_ellie_pl","path":"sprites/spr_ellie_pl/spr_ellie_pl.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
     {"id":{"name":"spr_town_bg_pl","path":"sprites/spr_town_bg_pl/spr_town_bg_pl.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"tl_collision","path":"tilesets/tl_collision/tl_collision.yy",},},
   ],
   "resourceType":"GMProject",
