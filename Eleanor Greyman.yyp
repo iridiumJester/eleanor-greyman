@@ -36,8 +36,8 @@
   },
   "name":"Eleanor Greyman",
   "resources":[
-    {"id":{"name":"obj_interact","path":"objects/obj_interact/obj_interact.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_room_swap","path":"objects/obj_room_swap/obj_room_swap.yy",},},
     {"id":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
     {"id":{"name":"rm_kitchen","path":"rooms/rm_kitchen/rm_kitchen.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
