@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_placeholder",
-    "path":"sprites/spr_placeholder/spr_placeholder.yy",
+    "name":"spr_placeholder_tl",
+    "path":"sprites/spr_placeholder_tl/spr_placeholder_tl.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
