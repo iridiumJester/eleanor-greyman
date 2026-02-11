@@ -36,6 +36,8 @@
   },
   "name":"Eleanor Greyman",
   "resources":[
+    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_room_swap","path":"objects/obj_room_swap/obj_room_swap.yy",},},
     {"id":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
@@ -44,6 +46,7 @@
     {"id":{"name":"rm_town_center","path":"rooms/rm_town_center/rm_town_center.yy",},},
     {"id":{"name":"rm_town_test_up","path":"rooms/rm_town_test_up/rm_town_test_up.yy",},},
     {"id":{"name":"spr_bakery_bg_pl","path":"sprites/spr_bakery_bg_pl/spr_bakery_bg_pl.yy",},},
+    {"id":{"name":"spr_button_placeholder","path":"sprites/spr_button_placeholder/spr_button_placeholder.yy",},},
     {"id":{"name":"spr_ellie_pl_walk","path":"sprites/spr_ellie_pl_walk/spr_ellie_pl_walk.yy",},},
     {"id":{"name":"spr_ellie_pl","path":"sprites/spr_ellie_pl/spr_ellie_pl.yy",},},
     {"id":{"name":"spr_kitchen_bg_pl","path":"sprites/spr_kitchen_bg_pl/spr_kitchen_bg_pl.yy",},},
