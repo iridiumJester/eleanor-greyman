@@ -54,7 +54,7 @@
     {"id":{"name":"spr_placeholder_tl","path":"sprites/spr_placeholder_tl/spr_placeholder_tl.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
     {"id":{"name":"spr_town_bg_pl","path":"sprites/spr_town_bg_pl/spr_town_bg_pl.yy",},},
-    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
+    {"id":{"name":"sprite_npc_pl","path":"sprites/sprite_npc_pl/sprite_npc_pl.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"tl_collision","path":"tilesets/tl_collision/tl_collision.yy",},},
   ],
