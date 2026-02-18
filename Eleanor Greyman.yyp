@@ -39,6 +39,7 @@
   "resources":[
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_room_swap","path":"objects/obj_room_swap/obj_room_swap.yy",},},
     {"id":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},
