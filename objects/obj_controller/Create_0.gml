@@ -1,3 +1,7 @@
+// font for text
+draw_set_font(ft_normal);
+
+
 // menu button
 ekey = false;
 

@@ -37,6 +37,7 @@
   },
   "name":"Eleanor Greyman",
   "resources":[
+    {"id":{"name":"ft_normal","path":"fonts/ft_normal/ft_normal.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},

@@ -1,7 +1,7 @@
 // menu
 var _xx = gui_w - 64 - 70;
-if ekey draw_sprite(spr_button_placeholder, 1, _xx, 64);
-else draw_sprite(spr_button_placeholder, 0, _xx, 64);
+if ekey draw_sprite(spr_button_placeholder, 1, _xx, 512);
+else draw_sprite(spr_button_placeholder, 0, _xx, 512);
 
 // clock
 var _sec_display = string_replace_all(string_format(real_seconds, 2, 0), " ", "0");
