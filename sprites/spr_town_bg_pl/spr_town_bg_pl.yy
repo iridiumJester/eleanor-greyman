@@ -19,7 +19,7 @@
   "height":288,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3c8824e5-17a1-4916-b820-bc2b9a808a72","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"3c8824e5-17a1-4916-b820-bc2b9a808a72","opacity":22.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3c8824e5-17a1-4916-b820-bc2b9a808a72","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"3c8824e5-17a1-4916-b820-bc2b9a808a72","opacity":22.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"eae65e3f-0d31-4199-a515-af73e15f5a8b","blendMode":0,"displayName":"default","isLocked":false,"name":"eae65e3f-0d31-4199-a515-af73e15f5a8b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_town_bg_pl",
