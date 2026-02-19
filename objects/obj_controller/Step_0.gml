@@ -1,6 +1,6 @@
 // menu ^_^
 
-ekey = keyboard_check_pressed(ord("E"));
+ekey = keyboard_check(ord("E"));
 
 if ekey 
 { 

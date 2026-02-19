@@ -1,2 +1,2 @@
-room = rm_menu;
-instance_destroy();
+// room = rm_menu;
+// instance_destroy();

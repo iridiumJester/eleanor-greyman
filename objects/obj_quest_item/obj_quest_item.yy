@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc",
+  "%Name":"obj_quest_item",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc",
+  "name":"obj_quest_item",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -36,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprite_npc_pl",
-    "path":"sprites/sprite_npc_pl/sprite_npc_pl.yy",
+    "name":"spr_placeholder_1",
+    "path":"sprites/spr_placeholder_1/spr_placeholder_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

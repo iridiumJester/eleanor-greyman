@@ -1,3 +1,3 @@
 interacting = false;
 interactable = 100;
-keybind = "F";
+keybind = "P";
