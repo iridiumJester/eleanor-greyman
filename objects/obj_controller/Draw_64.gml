@@ -1,7 +1,7 @@
 // menu
 var _xx = gui_w - 900;
 if ekey {
-	draw_sprite(spr_book_menu, 1, _xx, 64);
+	draw_sprite(spr_book_menu, 0, _xx, 64);
 	draw_text(string(gui_w), 64, 64)
 }
 
