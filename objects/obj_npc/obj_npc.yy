@@ -11,8 +11,8 @@
   "name":"obj_npc",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"People",
+    "path":"folders/Objects/People.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable",
