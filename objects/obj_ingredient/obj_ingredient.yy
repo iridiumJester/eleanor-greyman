@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_ingredient",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_ingredient",
   "overriddenProperties":[],
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite18",
-    "path":"sprites/Sprite18/Sprite18.yy",
+    "name":"spr_ingredients",
+    "path":"sprites/spr_ingredients/spr_ingredients.yy",
   },
   "spriteMaskId":null,
   "visible":true,
