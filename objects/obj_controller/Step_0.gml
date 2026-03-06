@@ -1,14 +1,23 @@
 // menu ^_^
 
-ekey = keyboard_check(ord("E"));
+ekey = keyboard_check_pressed(ord("E"));
 
-if ekey 
+if ekey && room != rm_menu
 { 
-	if room == rm_menu exit;
-	else 
-	
-	alarm[0] = 10; 
-} 
+	if !menu_showing
+	{ 
+		instance_create_layer(128, 64, "Instances", obj_journal);
+		menu_showing = true;
+	}
+	else
+	{
+		with (obj_journal)
+		{
+			instance_destroy();
+		}
+		menu_showing = false;
+	}
+}
 
 // clock
 if (room != rm_menu) 
@@ -34,3 +43,6 @@ if (room != rm_menu)
 		hours = 1;
 	}
 }
+
+
+show_debug_message("Ingredients active: " + string(ingredients_selected));
