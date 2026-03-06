@@ -3,6 +3,7 @@ hover_color = c_lime;
 selected = false;
 ingredient = 0;
 ingredients_selected = 0;
+count = 3;
 
 if y == 120 
 {

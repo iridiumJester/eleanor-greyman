@@ -7,6 +7,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 	{
 		y -= 256;
 		selected = false;
+		count += 1;
 		with (obj_controller) 
 		{
 			ingredients_selected -= 1;
@@ -16,6 +17,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 	{
 		y += 256;
 		selected = true;
+		count -= 1;
 		with (obj_controller) 
 		{
 			ingredients_selected += 1;

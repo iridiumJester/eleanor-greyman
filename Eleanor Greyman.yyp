@@ -60,6 +60,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_town_center","path":"rooms/rm_town_center/rm_town_center.yy",},},
     {"id":{"name":"rm_town_test_up","path":"rooms/rm_town_test_up/rm_town_test_up.yy",},},
+    {"id":{"name":"golbo","path":"sprites/golbo/golbo.yy",},},
     {"id":{"name":"menu_parts_1","path":"sprites/menu_parts_1/menu_parts_1.yy",},},
     {"id":{"name":"menu_parts_2","path":"sprites/menu_parts_2/menu_parts_2.yy",},},
     {"id":{"name":"spr_bakery_bg_pl","path":"sprites/spr_bakery_bg_pl/spr_bakery_bg_pl.yy",},},
