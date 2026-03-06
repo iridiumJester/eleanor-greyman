@@ -1,7 +1,10 @@
 switch (room)
 {
 	case (rm_menu):
-	    room = rm_bakery;
+	    if y == 296
+		{ room = rm_bakery;}
+		else
+		{ game_end(); }
 		break;
 	case (rm_town_center):
 		room = rm_bakery;

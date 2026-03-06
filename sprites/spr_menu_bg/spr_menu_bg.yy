@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_bakery_bg_pl",
+  "%Name":"spr_menu_bg",
   "bboxMode":0,
-  "bbox_bottom":575,
+  "bbox_bottom":287,
   "bbox_left":0,
-  "bbox_right":1023,
+  "bbox_right":511,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,19 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"59a27fb3-5fad-4658-884a-09516e7001fa","name":"59a27fb3-5fad-4658-884a-09516e7001fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b6c7023b-2b5e-4bed-a7c7-489a8d239eff","name":"b6c7023b-2b5e-4bed-a7c7-489a8d239eff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":576,
+  "height":288,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"b240e0f5-8fab-4e58-8539-46816a3b9ff8","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"b240e0f5-8fab-4e58-8539-46816a3b9ff8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4291ba32-2a08-47c5-bd1c-573b341540a2","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"4291ba32-2a08-47c5-bd1c-573b341540a2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3fb83d52-ad42-4d0d-937f-8bf517ab1642","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"3fb83d52-ad42-4d0d-937f-8bf517ab1642","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"3c8824e5-17a1-4916-b820-bc2b9a808a72","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"3c8824e5-17a1-4916-b820-bc2b9a808a72","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_bakery_bg_pl",
+  "name":"spr_menu_bg",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +36,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_bakery_bg_pl",
+    "%Name":"spr_menu_bg",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,9 +60,9 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_bakery_bg_pl",
+    "name":"spr_menu_bg",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":4.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -68,7 +71,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"59a27fb3-5fad-4658-884a-09516e7001fa","path":"sprites/spr_bakery_bg_pl/spr_bakery_bg_pl.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cf38e611-5e7c-4c46-9a69-444b86a8920d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6c7023b-2b5e-4bed-a7c7-489a8d239eff","path":"sprites/spr_menu_bg/spr_menu_bg.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"23e88106-f706-4414-a61c-c0f4407545de","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -84,5 +89,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1024,
+  "width":512,
 }

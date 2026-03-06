@@ -1,8 +1,8 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Eleanor Greyman",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -32,11 +32,14 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_effect_glow-1.0.0","name":"io.gamemaker.gm_effect_glow-1.0.0","path":"io.gamemaker.gm_effect_glow-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Eleanor Greyman",
   "resources":[
@@ -68,7 +71,7 @@
     {"id":{"name":"spr_item_pl","path":"sprites/spr_item_pl/spr_item_pl.yy",},},
     {"id":{"name":"spr_kitchen_bg_pl","path":"sprites/spr_kitchen_bg_pl/spr_kitchen_bg_pl.yy",},},
     {"id":{"name":"spr_kitchen_bg","path":"sprites/spr_kitchen_bg/spr_kitchen_bg.yy",},},
-    {"id":{"name":"spr_menu_bg_pl","path":"sprites/spr_menu_bg_pl/spr_menu_bg_pl.yy",},},
+    {"id":{"name":"spr_menu_bg","path":"sprites/spr_menu_bg/spr_menu_bg.yy",},},
     {"id":{"name":"spr_placeholder_1","path":"sprites/spr_placeholder_1/spr_placeholder_1.yy",},},
     {"id":{"name":"spr_placeholder_tl","path":"sprites/spr_placeholder_tl/spr_placeholder_tl.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
