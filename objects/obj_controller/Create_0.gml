@@ -18,3 +18,10 @@ speed = 60;
 
 // kitchen
 ingredients_selected = 0;
+
+// speed for text scrolling in textboxes, change to suit your taste
+// (or add an in-game settings option for players to change it!)
+global.textSpeed = 0.75;
+
+// sorry if this fucks anything up
+surface_resize(application_surface,RESOLUTION_W,RESOLUTION_H);
