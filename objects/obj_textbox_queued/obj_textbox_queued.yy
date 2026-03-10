@@ -9,8 +9,8 @@
   "name":"obj_textbox_queued",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Game Control",
+    "path":"folders/Objects/Game Control.yy",
   },
   "parentObjectId":null,
   "persistent":false,
