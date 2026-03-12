@@ -28,3 +28,18 @@ if image_index = 0
 			break;
 	}
 }
+else
+{
+	with (obj_ingredient)
+	{
+		if selected
+		{
+			y -= 192;
+			selected = false;
+			with (obj_inventory) 
+			{
+				ingredients_selected -= 1;
+			}
+		}
+	}
+}
