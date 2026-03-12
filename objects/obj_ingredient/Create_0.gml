@@ -1,5 +1,6 @@
 image_speed = 0;
-hover_color = c_lime;
+hover_color = #80ff80;
+empty_color = #bfbfbf;
 selected = false;
 ingredient = 0;
 ingredients_selected = 0;

@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"3b054d97-bbbf-4002-bbbd-5d481cc8f0e5","name":"3b054d97-bbbf-4002-bbbd-5d481cc8f0e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":16,
-  "gridY":2,
+  "gridX":8,
+  "gridY":8,
   "height":288,
   "HTile":false,
   "layers":[
@@ -23,6 +23,8 @@
     {"$GMImageLayer":"","%Name":"4b876b66-723a-4aa7-8af0-a788383def0d","blendMode":0,"displayName":"Boards","isLocked":false,"name":"4b876b66-723a-4aa7-8af0-a788383def0d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"388de5dc-d271-4d67-8bb8-a8a88b907c93","blendMode":0,"displayName":"Full Color Counter","isLocked":false,"name":"388de5dc-d271-4d67-8bb8-a8a88b907c93","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"5428eaa7-2443-4704-b5ec-f2718ed5e24e","blendMode":0,"displayName":"Counter","isLocked":false,"name":"5428eaa7-2443-4704-b5ec-f2718ed5e24e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8c7dd1c8-8e39-4d9f-8efc-0c273963a1da","blendMode":0,"displayName":"Windows","isLocked":false,"name":"8c7dd1c8-8e39-4d9f-8efc-0c273963a1da","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b6e131dd-7383-4974-bb40-e96e8a9d4a44","blendMode":0,"displayName":"Room Color","isLocked":false,"name":"b6e131dd-7383-4974-bb40-e96e8a9d4a44","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"9b57e4f6-c6b2-4145-850d-aefb37eac76c","blendMode":0,"displayName":"Room","isLocked":false,"name":"9b57e4f6-c6b2-4145-850d-aefb37eac76c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"f2193ef0-7649-4a28-aaa8-e8c2dcb352c1","blendMode":0,"displayName":"Color","isLocked":false,"name":"f2193ef0-7649-4a28-aaa8-e8c2dcb352c1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
