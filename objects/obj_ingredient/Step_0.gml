@@ -30,6 +30,11 @@ else
 	else { image_blend = -1; }
 }
 
+// fixes layering (partially)
+with (all)
+{
+    depth = -bbox_bottom;
+}
 
 
 with (obj_inventory)
