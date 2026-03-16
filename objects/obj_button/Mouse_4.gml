@@ -43,4 +43,5 @@ else
 			}
 		}
 	}
+	confirm_bake = true;
 }

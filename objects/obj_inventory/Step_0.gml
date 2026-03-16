@@ -73,4 +73,4 @@ with (obj_ingredient)
 	}
 }
 
-show_debug_message("1: " + string(ingredient_1) + ", 2: " + string(ingredient_2))
+// show_debug_message("1: " + string(ingredient_1) + ", 2: " + string(ingredient_2))

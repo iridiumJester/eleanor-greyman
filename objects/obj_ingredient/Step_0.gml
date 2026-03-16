@@ -11,7 +11,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 		y -= y_difference;
 		x -= x_difference
 		selected = false;
-		count += 1;
+		stashed_count += 1;
 		with (obj_inventory) 
 		{
 			ingredients_selected -= 1;
@@ -23,7 +23,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 		y += y_difference;
 		x += x_difference
 		selected = true;
-		count -= 1;
+		stashed_count -= 1;
 		with (obj_inventory) 
 		{
 			ingredients_selected += 1;
@@ -48,3 +48,5 @@ with (obj_inventory)
 {
 	other.ingredients_selected = ingredients_selected;
 }
+
+show_debug_message(string(count) + " - " + string(stashed_count));

@@ -5,6 +5,7 @@ selected = false;
 
 ingredient = 0;
 count = 0;
+stashed_count = 0;
 ingredients_selected = 0;
 ingredient_limit = 4;
 
