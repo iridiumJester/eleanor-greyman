@@ -34,8 +34,7 @@
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e4b57196-56e7-4b69-bdcb-957dfe1d3931","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"e4b57196-56e7-4b69-bdcb-957dfe1d3931","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"8503808e-45c9-4707-ad63-058d034fd03e","blendMode":0,"displayName":"default","isLocked":false,"name":"8503808e-45c9-4707-ad63-058d034fd03e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1953ab3d-ae5f-4ee3-9dcf-f622b1a68669","blendMode":0,"displayName":"default","isLocked":false,"name":"1953ab3d-ae5f-4ee3-9dcf-f622b1a68669","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ingredients",
   "nineSlice":null,
