@@ -15,10 +15,11 @@
     {"$GMSpriteFrame":"v1","%Name":"3b054d97-bbbf-4002-bbbd-5d481cc8f0e5","name":"3b054d97-bbbf-4002-bbbd-5d481cc8f0e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":8,
-  "gridY":8,
+  "gridY":4,
   "height":288,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"c595ef89-38b0-4e9d-a5bc-6a8ea63dbf46","blendMode":2,"displayName":"Layer 1","isLocked":false,"name":"c595ef89-38b0-4e9d-a5bc-6a8ea63dbf46","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"b5080785-9c9d-4ef0-b393-399cf24a1257","blendMode":1,"displayName":"Glass Case","isLocked":false,"name":"b5080785-9c9d-4ef0-b393-399cf24a1257","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"4b876b66-723a-4aa7-8af0-a788383def0d","blendMode":0,"displayName":"Boards","isLocked":false,"name":"4b876b66-723a-4aa7-8af0-a788383def0d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"388de5dc-d271-4d67-8bb8-a8a88b907c93","blendMode":0,"displayName":"Full Color Counter","isLocked":false,"name":"388de5dc-d271-4d67-8bb8-a8a88b907c93","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

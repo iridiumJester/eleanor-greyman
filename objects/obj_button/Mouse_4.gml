@@ -34,7 +34,8 @@ else
 	{
 		if selected
 		{
-			y -= 192;
+			x -= x_difference;
+			y -= y_difference;
 			selected = false;
 			with (obj_inventory) 
 			{
