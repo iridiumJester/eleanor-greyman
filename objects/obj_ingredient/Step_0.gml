@@ -43,8 +43,6 @@ with (all)
     depth = -bbox_bottom;
 }
 
-// set count from inventory
-
 // keep ing selected consistent across items
 with (obj_inventory)
 {

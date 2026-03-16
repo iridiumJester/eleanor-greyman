@@ -2,9 +2,10 @@ image_speed = 0;
 hover_color = #80ff80;
 empty_color = #bfbfbf;
 selected = false;
+
 ingredient = 0;
+count = 0;
 ingredients_selected = 0;
-count = 3;
 ingredient_limit = 4;
 
 x_difference = 0;
@@ -96,4 +97,57 @@ else
 {
 	sprite_index = spr_item_pl;
 	ingredient = 0;
+}
+
+// set count from inventory
+with (obj_inventory)
+{
+	if other.ingredient == 1
+	{
+		other.count = ingredient_1;
+	}
+	if other.ingredient == 2
+	{
+		other.count = ingredient_2;
+	}
+	if other.ingredient == 3
+	{
+		other.count = ingredient_3;
+	}
+	if other.ingredient == 4
+	{
+		other.count = ingredient_4;
+	}
+	if other.ingredient == 5
+	{
+		other.count = ingredient_5;
+	}
+	if other.ingredient == 6
+	{
+		other.count = ingredient_6;
+	}
+	if other.ingredient == 7
+	{
+		other.count = ingredient_7;
+	}
+	if other.ingredient == 8
+	{
+		other.count = ingredient_8;
+	}
+	if other.ingredient == 9
+	{
+		other.count = ingredient_9;
+	}
+	if other.ingredient == 10
+	{
+		other.count = ingredient_10;
+	}
+	if other.ingredient == 11
+	{
+		other.count = ingredient_11;
+	}
+	if other.ingredient == 12
+	{
+		other.count = ingredient_12;
+	}
 }

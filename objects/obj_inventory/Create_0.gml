@@ -12,6 +12,6 @@ ingredient_6 = 3;
 ingredient_7 = 3;
 ingredient_8 = 3;
 ingredient_9 = 3;
-ingredient_13 = 3;
+ingredient_10 = 3;
 ingredient_11 = 3;
 ingredient_12 = 3;
