@@ -2,6 +2,7 @@ image_speed = 0;
 hover_color = #80ff80;
 empty_color = #bfbfbf;
 selected = false;
+tracked_in_recipe = false;
 
 ingredient = 0;
 count = 0;

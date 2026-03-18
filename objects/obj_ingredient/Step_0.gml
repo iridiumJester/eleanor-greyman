@@ -37,6 +37,28 @@ else
 	else { image_blend = -1; }
 }
 
+// write in recipe
+if selected
+{ alarm[0] = 1;}
+else if !tracked_in_recipe && selected
+{
+	with (obj_recipe_book)
+	{
+		active_ingredients[first_zero] = other.ingredient;
+	}
+	tracked_in_recipe = true;
+}
+/* else
+{
+	if ingredient found in active_ingredients
+		with (obj_recipe_book)
+		{
+			ing_num = ingredient;
+			active_ingredients[index_of_current] = 0;
+		}
+}
+*/
+
 // fixes layering
 with (all)
 {
