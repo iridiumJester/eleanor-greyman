@@ -55,6 +55,7 @@
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_quest_item","path":"objects/obj_quest_item/obj_quest_item.yy",},},
+    {"id":{"name":"obj_recipe_book","path":"objects/obj_recipe_book/obj_recipe_book.yy",},},
     {"id":{"name":"obj_textbox_queued","path":"objects/obj_textbox_queued/obj_textbox_queued.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"rm_bakery","path":"rooms/rm_bakery/rm_bakery.yy",},},

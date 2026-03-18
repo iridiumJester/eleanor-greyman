@@ -1,5 +1,3 @@
-show_debug_message(string(confirm_bake));
-
 // finalizes count
 if confirm_bake
 {
@@ -9,3 +7,5 @@ if confirm_bake
 		other.confirm_bake = false;
 	}
 }
+
+// show_debug_message(string(confirm_bake));

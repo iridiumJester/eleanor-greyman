@@ -6,7 +6,7 @@ if ekey && room != rm_menu
 { 
 	if !menu_showing
 	{ 
-		instance_create_layer(128, 64, "Instances", obj_journal);
+		instance_create_layer(128, 0, "Instances", obj_journal);
 		menu_showing = true;
 	}
 	else

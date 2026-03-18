@@ -49,4 +49,4 @@ with (obj_inventory)
 	other.ingredients_selected = ingredients_selected;
 }
 
-show_debug_message(string(count) + " - " + string(stashed_count));
+// show_debug_message(string(count) + " - " + string(stashed_count));
