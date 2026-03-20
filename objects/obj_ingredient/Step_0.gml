@@ -46,16 +46,18 @@ if !tracked_in_recipe && selected
 	}
 	tracked_in_recipe = true;
 }
-/* else
+else if tracked_in_recipe && !selected
 {
-	if ingredient found in active_ingredients
-		with (obj_recipe_book)
+	with (obj_recipe_book)
+	{
+		if index_of_current > -1
 		{
-			ing_num = ingredient;
+			ing_num = other.ingredient;
 			active_ingredients[index_of_current] = 0;
+			other.alarm[0] = 2;
 		}
+	}
 }
-*/
 
 // fixes layering
 with (all)
@@ -69,4 +71,4 @@ with (obj_inventory)
 	other.ingredients_selected = ingredients_selected;
 }
 
-// show_debug_message(string(count) + " - " + string(stashed_count));
+show_debug_message(string(tracked_in_recipe));

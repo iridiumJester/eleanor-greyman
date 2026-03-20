@@ -1,3 +1,4 @@
+// variables for use in obj_ing
 first_zero = array_get_index(active_ingredients, 0);
 index_of_current = array_get_index(active_ingredients, ing_num);
 
@@ -5,4 +6,4 @@ index_of_current = array_get_index(active_ingredients, ing_num);
 array_sort(active_ingredients, function(elm_1, elm_2)
 { return elm_1 - elm_2; });
 
-show_debug_message(active_ingredients);
+show_debug_message(string(active_ingredients) + " : " + string(ing_num) + " : " + string(index_of_current));
