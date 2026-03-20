@@ -38,9 +38,7 @@ else
 }
 
 // write in recipe
-if selected
-{ alarm[0] = 1;}
-else if !tracked_in_recipe && selected
+if !tracked_in_recipe && selected
 {
 	with (obj_recipe_book)
 	{

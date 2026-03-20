@@ -1,5 +1,5 @@
-var _first_zero = array_get_index(active_ingredients, 0);
-var _index_of_current = array_get_index(active_ingredients, ing_num);
+first_zero = array_get_index(active_ingredients, 0);
+index_of_current = array_get_index(active_ingredients, ing_num);
 
 // sort numerically
 array_sort(active_ingredients, function(elm_1, elm_2)

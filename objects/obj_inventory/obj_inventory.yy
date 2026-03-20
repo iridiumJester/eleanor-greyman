@@ -10,8 +10,8 @@
   "name":"obj_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Control",
-    "path":"folders/Objects/Game Control.yy",
+    "name":"Kitchen",
+    "path":"folders/Objects/Kitchen.yy",
   },
   "parentObjectId":null,
   "persistent":true,
