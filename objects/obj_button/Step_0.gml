@@ -1,3 +1,10 @@
+// determines if current ingredients are a valid combination
+with (obj_recipe_book)
+{
+	if active_ingredients == recipe_1
+	{ other.can_bake = true; }
+}
+
 // finalizes count
 if confirm_bake
 {
@@ -10,6 +17,7 @@ if confirm_bake
 	{
 		active_ingredients = [0, 0, 0, 0];
 	}
+	can_bake = false;
 }
 
 // show_debug_message(string(confirm_bake));

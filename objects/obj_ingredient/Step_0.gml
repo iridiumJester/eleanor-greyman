@@ -1,5 +1,8 @@
 var _click = mouse_check_button_pressed(1);
 
+// indicator of click
+if _click { image_blend = c_dkgray; }
+
 // click radius
 if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 {
@@ -71,4 +74,4 @@ with (obj_inventory)
 	other.ingredients_selected = ingredients_selected;
 }
 
-show_debug_message(string(tracked_in_recipe));
+// show_debug_message(string(tracked_in_recipe));

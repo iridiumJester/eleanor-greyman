@@ -30,18 +30,21 @@ if image_index = 0
 }
 else
 {
-	with (obj_ingredient)
+	if can_bake
 	{
-		if selected
+		with (obj_ingredient)
 		{
-			x -= x_difference;
-			y -= y_difference;
-			selected = false;
-			with (obj_inventory) 
+			if selected
 			{
-				ingredients_selected -= 1;
+				x -= x_difference;
+				y -= y_difference;
+				selected = false;
+				with (obj_inventory) 
+				{
+					ingredients_selected -= 1;
+				}
 			}
 		}
+		confirm_bake = true;
 	}
-	confirm_bake = true;
 }
