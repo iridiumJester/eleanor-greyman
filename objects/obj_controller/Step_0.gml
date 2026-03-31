@@ -44,5 +44,20 @@ if (room != rm_menu)
 	}
 }
 
+// create product in bakery
+if product_count != 0
+{
+	// spacing between instances
+	var spacing = 32; 
+
+	for (var i = 0; i < product_count; ++i) 
+	{
+	    // x position based on i
+	    var xx = 128 + (i * spacing);
+	    var yy = 416;
+
+	    var new_instance = instance_create_layer(xx, yy, "Instances", obj_product);
+	}
+}
 
 // show_debug_message("Ingredients active: " + string(ingredients_selected));
