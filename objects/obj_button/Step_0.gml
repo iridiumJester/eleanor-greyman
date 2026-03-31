@@ -1,7 +1,7 @@
 // determines if current ingredients are a valid combination
 with (obj_recipe_book)
 {
-	if active_ingredients == recipe_1
+	if array_equals(active_ingredients, recipe_1)
 	{ other.can_bake = true; }
 }
 
