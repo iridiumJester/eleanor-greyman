@@ -15,7 +15,7 @@ if confirm_bake
 	}
 	with (obj_recipe_book)
 	{
-		active_ingredients = [0, 0, 0, 0];
+		active_ingredients = [0, 0, 0, 0, 0];
 	}
 	with (obj_controller)
 	{

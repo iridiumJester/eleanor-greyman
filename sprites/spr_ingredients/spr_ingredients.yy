@@ -42,8 +42,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"kitchen",
-    "path":"folders/Sprites/kitchen.yy",
+    "name":"Kitchen",
+    "path":"folders/Sprites/Kitchen.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
