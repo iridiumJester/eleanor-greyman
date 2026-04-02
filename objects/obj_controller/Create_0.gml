@@ -16,6 +16,7 @@ speed = 60;
 
 // product
 product_count = 0;
+stashed_product = product_count;
 
 // speed for text scrolling in textboxes, change to suit your taste
 // (or add an in-game settings option for players to change it!)

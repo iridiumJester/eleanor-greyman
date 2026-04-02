@@ -45,10 +45,10 @@ if (room != rm_menu)
 }
 
 // create product in bakery
-if product_count != 0
+if product_count != 0 && room == rm_bakery
 {
 	// spacing between instances
-	var spacing = 32; 
+	var spacing = 56; 
 
 	for (var i = 0; i < product_count; ++i) 
 	{

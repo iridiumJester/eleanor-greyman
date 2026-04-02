@@ -45,6 +45,11 @@ else
 				}
 			}
 		}
+		with (obj_controller)
+		{
+			if product_count == stashed_product
+			{ stashed_product += 1; }
+		}
 		confirm_bake = true;
 	}
 }

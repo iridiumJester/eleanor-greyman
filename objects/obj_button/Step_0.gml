@@ -17,6 +17,10 @@ if confirm_bake
 	{
 		active_ingredients = [0, 0, 0, 0];
 	}
+	with (obj_controller)
+	{
+		product_count = stashed_product;
+	}
 	can_bake = false;
 }
 
