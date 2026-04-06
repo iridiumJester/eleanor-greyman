@@ -59,15 +59,19 @@ else
 	{
 		if selected
 		{
-			x -= x_difference;
-			y -= y_difference;
-			selected = false;
+			instance_destroy();
 		}
 	}
 	with (obj_controller)
 	{
 		product_count -= 1;
 		money += 10;
+		sell_exists = false;
+		customer_exists = false;
+	}
+	with (obj_customer)
+	{
+		instance_destroy();
 	}
 	instance_destroy();
 }

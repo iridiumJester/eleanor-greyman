@@ -1,6 +1,8 @@
-// menu ^_^
+// some variables
 ekey = keyboard_check_pressed(ord("E"));
+var _count_true = 0;
 
+// menu ^_^
 if ekey && room != rm_menu
 { 
 	if !menu_showing
@@ -54,25 +56,40 @@ if (room != rm_menu)
 }
 
 // create product in bakery
-if product_count != 0 && room == rm_bakery
+if !instance_exists(obj_product)
 {
-	// spacing between instances
-	var spacing = 56; 
-
-	for (var i = 0; i < product_count; ++i) 
+	if product_count != 0 && room == rm_bakery
 	{
-	    // x position based on i
-	    var xx = 128 + (i * spacing);
-	    var yy = 416;
+		// spacing between instances
+		var _spacing = 56;
 
-	    var new_instance = instance_create_layer(xx, yy, "Instances", obj_product);
+		for (var i = 0; i < product_count; ++i) 
+		{
+		    // x position based on i
+		    var xx = 128 + (i * _spacing);
+		    var yy = 416;
+
+		    var _new_instance = instance_create_layer(xx, yy, "Instances", obj_product);
+		}
 	}
 }
+
+with (obj_product) 
+{
+    if (variable_instance_exists(id, "selected") && selected) 
+	{
+        _count_true++;
+    }
+}
+
+products_selected = _count_true;
 
 // create sell button 208, 320 152+(products_selected*56)
 if products_selected >= 1
 	if !sell_exists
 	{ 
-		instance_create_layer(208, 320, "Instances", obj_button);
+		instance_create_layer(152, 320, "Instances", obj_button);
 		sell_exists = true;
 	}
+	
+show_debug_message(products_selected);

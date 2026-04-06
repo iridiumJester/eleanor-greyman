@@ -10,25 +10,11 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 	image_blend = c_lime;
 	if _click && selected
 	{
-		// move back to shelf if on counter
-		y += y_difference;
-		x += x_difference
 		selected = false;
-		with (obj_controller) 
-		{
-			products_selected -= 1;
-		}
 	}
 	else if _click && !selected && products_selected < 3
 	{
-		// move to counter if on shelf if not item limit
-		y -= y_difference;
-		x -= x_difference
 		selected = true;
-		with (obj_controller) 
-		{
-			products_selected += 1;
-		}
 	}
 }
 else
