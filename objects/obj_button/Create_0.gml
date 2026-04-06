@@ -10,3 +10,7 @@ if y = 320
 {
 	image_index = 3;
 }
+if y = 48
+{
+	image_index = 4;
+}

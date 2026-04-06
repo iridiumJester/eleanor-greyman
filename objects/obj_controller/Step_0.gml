@@ -2,30 +2,12 @@
 ekey = keyboard_check_pressed(ord("E"));
 var _count_true = 0;
 
-// menu ^_^
-if ekey && room != rm_menu
-{ 
-	if !menu_showing
-	{ 
-		instance_create_layer(128, 0, "Instances", obj_journal);
-		menu_showing = true;
-	}
-	else
-	{
-		with (obj_journal)
-		{
-			instance_destroy();
-		}
-		menu_showing = false;
-	}
-}
-
 // customer
 if room == rm_bakery && product_count > 0
 { 
 	if !customer_exists
 	{ 
-		instance_create_layer(128, 128, "Customer", obj_customer);
+		instance_create_layer(128, 152, "Customer", obj_customer);
 		customer_exists = true;
 	}
 }
