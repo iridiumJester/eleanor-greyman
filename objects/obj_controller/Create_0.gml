@@ -11,14 +11,19 @@ customer_exists = false;
 // font for text
 draw_set_font(ft_normal);
 
+// currency
+money = 125;
+
 // menu button
 ekey = false;
 menu_showing = false;
 gui_w = display_get_gui_width();
 
 // product
-product_count = 0;
+product_count = 1;
 stashed_product = product_count;
+products_selected = 0;
+sell_exists = false;
 
 
 // speed for text scrolling in textboxes, change to suit your taste

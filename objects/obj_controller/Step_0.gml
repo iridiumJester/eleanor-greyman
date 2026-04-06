@@ -69,4 +69,10 @@ if product_count != 0 && room == rm_bakery
 	}
 }
 
-// show_debug_message("Ingredients active: " + string(ingredients_selected));
+// create sell button 208, 320 152+(products_selected*56)
+if products_selected >= 1
+	if !sell_exists
+	{ 
+		instance_create_layer(208, 320, "Instances", obj_button);
+		sell_exists = true;
+	}

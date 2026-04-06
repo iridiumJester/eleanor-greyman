@@ -6,3 +6,7 @@ if y = 464
 {
 	image_index = 1;
 }
+if y = 320
+{
+	image_index = 3;
+}

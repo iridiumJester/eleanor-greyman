@@ -1,5 +1,5 @@
 // room swap
-if image_index = 0
+if image_index == 0
 {
 	switch (room)
 	{
@@ -28,7 +28,7 @@ if image_index = 0
 			break;
 	}
 }
-else
+else if image_index == 1
 {
 	if can_bake
 	{
@@ -52,4 +52,22 @@ else
 		}
 		confirm_bake = true;
 	}
+}
+else
+{
+	with (obj_product)
+	{
+		if selected
+		{
+			x -= x_difference;
+			y -= y_difference;
+			selected = false;
+		}
+	}
+	with (obj_controller)
+	{
+		product_count -= 1;
+		money += 10;
+	}
+	instance_destroy();
 }

@@ -2,15 +2,15 @@
   "$GMObject":"",
   "%Name":"obj_product",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_product",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Control",
-    "path":"folders/Objects/Game Control.yy",
+    "name":"Kitchen",
+    "path":"folders/Objects/Kitchen.yy",
   },
   "parentObjectId":null,
   "persistent":false,
