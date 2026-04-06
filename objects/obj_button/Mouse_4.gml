@@ -64,8 +64,8 @@ else
 	}
 	with (obj_controller)
 	{
-		product_count -= 1;
-		money += 10;
+		product_count -= 1*products_selected;
+		money += 10*products_selected;
 		sell_exists = false;
 		customer_exists = false;
 	}
