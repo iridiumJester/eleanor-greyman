@@ -41,23 +41,69 @@ else
 }
 
 // write in recipe
-if !tracked_in_recipe && selected
+if room == rm_kitchen
 {
-	with (obj_recipe_book)
+	ingredient_limit = 4;
+	if !tracked_in_recipe && selected
 	{
-		active_ingredients[first_zero] = other.ingredient;
-	}
-	tracked_in_recipe = true;
-}
-else if tracked_in_recipe && !selected
-{
-	with (obj_recipe_book)
-	{
-		if index_of_current > -1
+		with (obj_recipe_book)
 		{
-			ing_num = other.ingredient;
-			active_ingredients[index_of_current] = 0;
-			other.alarm[0] = 2;
+			active_ingredients[first_zero] = other.ingredient;
+		}
+		tracked_in_recipe = true;
+	}
+	else if tracked_in_recipe && !selected
+	{
+		with (obj_recipe_book)
+		{
+			if index_of_current > -1
+			{
+				ing_num = other.ingredient;
+				active_ingredients[index_of_current] = 0;
+				other.alarm[0] = 2;
+			}
+		}
+	}
+}
+else if room == rm_shop
+{
+	ingredient_limit = 12;
+	
+	// first slot is 64, 384
+	if ingredient <= 6
+	{ x_difference = (-80*ingredient)+32; y_difference = 256+8; }
+	else
+	{ x_difference = (-80*(ingredient-6))+32; y_difference = 192+16; }
+	
+	
+	if selected
+	{
+		image_xscale = 0.5;
+		image_yscale = 0.5;
+	}
+	else
+	{
+		image_xscale = 1;
+		image_yscale = 1;
+	}
+	if !tracked_in_recipe && selected
+	{
+		with (obj_shop_control)
+		{
+			active_ingredients[first_zero] = other.ingredient;
+		}
+		tracked_in_recipe = true;
+	}
+	else if tracked_in_recipe && !selected
+	{
+		with (obj_shop_control)
+		{
+			if index_of_current > -1
+			{
+				ing_num = other.ingredient;
+				active_ingredients[index_of_current] = 0;
+				other.alarm[0] = 2;
+			}
 		}
 	}
 }

@@ -15,6 +15,7 @@ y_difference = 192;
 start_x = x;
 start_y = y;
 
+
 if y == 120 
 {
 	switch (x) 
@@ -54,7 +55,7 @@ if y == 120
 			break;
 	}
 }
-else if y == 256 
+else if y == 256
 {
 	switch (x) 
 	{

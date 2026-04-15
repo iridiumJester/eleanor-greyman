@@ -1,6 +1,16 @@
 tracked_in_recipe = false;
 
-with (obj_recipe_book)
+if room == rm_kitchen
 {
-	ing_num = 0;
+	with (obj_recipe_book)
+	{
+		ing_num = 0;
+	}
+}
+else
+{
+	with (obj_shop_control)
+	{
+		ing_num = 0;
+	}
 }

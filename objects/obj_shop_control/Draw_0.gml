@@ -1,0 +1,1 @@
+draw_text_colour(656, 412, string(quantity_selected), c_black, c_black, c_black, c_black, 1);

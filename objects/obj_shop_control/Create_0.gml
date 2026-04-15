@@ -1,3 +1,4 @@
-active_ingredients = [ 0,0,0,0,0,0,0,0 ];
+active_ingredients = [ 0,0,0,0,0,0,0,0,0,0,0,0,0 ];
 ingredients_selected = 0;
 ing_num = 0;
+quantity_selected = 1;
