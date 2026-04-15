@@ -8,6 +8,10 @@ if y = 464
 }
 if y = 320
 {
+	image_index = 2;
+}
+if y = 112
+{
 	image_index = 3;
 }
 if y = 48

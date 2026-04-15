@@ -9,22 +9,14 @@ if image_index == 0
 			else
 			{ room = rm_bakery; }
 			break;
-		case (rm_town_center):
-			room = rm_bakery;
-			break;
 		case (rm_kitchen):
 			room = rm_bakery;
 			break;
 		case (rm_bakery):
-			if (x > room_width * 0.75) 
-			{
-			    // button is on the right
-				room = rm_kitchen;
-			} 
-			else 
-			{
-			    room = rm_town_center;
-			}
+			room = rm_kitchen;
+			break;
+		case (rm_shop):
+			room = rm_bakery;
 			break;
 	}
 }
@@ -53,7 +45,7 @@ else if image_index == 1
 		confirm_bake = true;
 	}
 }
-else if image_index == 3
+else if image_index == 2
 {
 	with (obj_product)
 	{
@@ -74,6 +66,10 @@ else if image_index == 3
 		instance_destroy();
 	}
 	instance_destroy();
+}
+else if image_index == 3 
+{
+	room = rm_shop;
 }
 else
 {
