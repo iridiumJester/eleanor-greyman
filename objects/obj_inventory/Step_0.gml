@@ -72,5 +72,3 @@ with (obj_ingredient)
 		other.ingredient_12 = count;
 	}
 }
-
-// show_debug_message("1: " + string(ingredient_1) + ", 2: " + string(ingredient_2))

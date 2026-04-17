@@ -1,4 +1,4 @@
-if room == rm_kitchen
+if room == rm_kitchen || room == rm_shop
 {
 	selected = false;
 	ingredients_selected = 0;

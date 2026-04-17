@@ -57,7 +57,7 @@ else if image_index == 2
 	with (obj_controller)
 	{
 		product_count -= 1*products_selected;
-		money += 10*products_selected;
+		money += 25*products_selected;
 		sell_exists = false;
 		customer_exists = false;
 	}

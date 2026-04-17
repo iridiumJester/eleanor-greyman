@@ -14,7 +14,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 		y -= y_difference;
 		x -= x_difference
 		selected = false;
-		stashed_count += 1;
+		if room == rm_kitchen { stashed_count += 1; }
 		with (obj_inventory) 
 		{
 			ingredients_selected -= 1;
@@ -26,7 +26,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 		y += y_difference;
 		x += x_difference
 		selected = true;
-		stashed_count -= 1;
+		if room == rm_kitchen { stashed_count -= 1; }
 		with (obj_inventory) 
 		{
 			ingredients_selected += 1;
@@ -75,7 +75,6 @@ else if room == rm_shop
 	else
 	{ x_difference = (-80*(ingredient-6))+32; y_difference = 192+16; }
 	
-	
 	if selected
 	{
 		image_xscale = 0.5;
@@ -98,7 +97,7 @@ else if room == rm_shop
 	{
 		with (obj_shop_control)
 		{
-			if index_of_current > -1
+			if index_of_current > 1
 			{
 				ing_num = other.ingredient;
 				active_ingredients[index_of_current] = 0;
@@ -120,4 +119,4 @@ with (obj_inventory)
 	other.ingredients_selected = ingredients_selected;
 }
 
-// show_debug_message(string(tracked_in_recipe));
+show_debug_message(string(stashed_count));
