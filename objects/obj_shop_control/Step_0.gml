@@ -8,6 +8,7 @@ array_sort(active_ingredients, function(elm_1, elm_2)
 
 show_debug_message(string(active_ingredients) + " : " + string(ing_num) + " : " + string(index_of_current));
 
+// keep variables consistent
 with (obj_inventory)
 {
 	other.ingredients_selected = ingredients_selected;
@@ -15,3 +16,11 @@ with (obj_inventory)
 
 // cost in shop
 cost_owed = quantity_selected*ingredients_selected*5;
+
+// prevent player from buying more than they can afford
+if cost_owed <= obj_controller.money
+{ with (obj_shop_button) 
+	{ can_buy = true; } }
+else
+{ with (obj_shop_button) 
+	{ can_buy = false; } }

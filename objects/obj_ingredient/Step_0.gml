@@ -1,4 +1,8 @@
 var _click = mouse_check_button_pressed(1);
+var _selectable = false;
+if room == rm_kitchen && count > 0 { _selectable = true; }
+else if room == rm_shop { _selectable = true; }
+else { _selectable = false; }
 
 // indicator of click
 if _click { image_blend = c_dkgray; }
@@ -20,7 +24,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 			ingredients_selected -= 1;
 		}
 	}
-	else if _click && !selected && ingredients_selected < ingredient_limit && count > 0
+	else if _click && !selected && ingredients_selected < ingredient_limit && _selectable
 	{
 		// move to counter if on shelf if not item limit and not empty
 		y += y_difference;

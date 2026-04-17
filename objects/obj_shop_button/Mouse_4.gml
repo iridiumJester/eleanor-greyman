@@ -17,6 +17,8 @@ else if image_index == 1
 }
 else if image_index == 2
 {
+	if can_buy
+	{
 	with (obj_shop_control)
 	{
 		other.cost_owed = cost_owed;
@@ -41,6 +43,7 @@ else if image_index == 2
 		money -= other.cost_owed;
 	}
 	confirm_buy = true;
+	}
 }
 else
 {

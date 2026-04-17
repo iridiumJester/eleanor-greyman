@@ -12,7 +12,7 @@ customer_exists = false;
 draw_set_font(ft_normal);
 
 // currency
-money = 125;
+money = 100;
 
 // menu button
 ekey = false;

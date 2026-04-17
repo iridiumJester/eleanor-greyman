@@ -4,7 +4,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+32 && mouse_y >= y-32
 else
 { image_blend = -1; }
 
-// update value
+// update for purchases
 if confirm_buy
 {
 	with (obj_ingredient)

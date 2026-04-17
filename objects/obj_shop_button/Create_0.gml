@@ -1,6 +1,7 @@
 image_speed = 0;
 cost_owed = 0;
 quantity_selected = 0;
+can_buy = false;
 confirm_buy = false;
 
 if x == 664 
