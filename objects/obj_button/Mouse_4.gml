@@ -60,6 +60,7 @@ else if image_index == 2
 		money += 25*products_selected;
 		sell_exists = false;
 		customer_exists = false;
+		stashed_product = product_count;
 	}
 	with (obj_customer)
 	{

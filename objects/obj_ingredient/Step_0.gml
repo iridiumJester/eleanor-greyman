@@ -123,5 +123,3 @@ with (obj_inventory)
 {
 	other.ingredients_selected = ingredients_selected;
 }
-
-show_debug_message(string(stashed_count));

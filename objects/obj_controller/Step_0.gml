@@ -74,4 +74,4 @@ if products_selected >= 1
 		sell_exists = true;
 	}
 	
-show_debug_message(products_selected);
+show_debug_message("Stash: " + string(stashed_product) + ", Real: " + string(product_count));
