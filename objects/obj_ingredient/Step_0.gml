@@ -40,7 +40,8 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 else
 {
 	// turn gray if empty
-	if count <= 0 && !selected { image_blend = empty_color; }
+	if count <= 3 && room == rm_shop { image_blend = #ff7070; }
+	else if count <= 0 && !selected { image_blend = empty_color; }
 	else { image_blend = -1; }
 }
 

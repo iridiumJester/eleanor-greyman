@@ -19,31 +19,33 @@ else if image_index == 2
 {
 	if can_buy
 	{
-	with (obj_shop_control)
-	{
-		other.cost_owed = cost_owed;
-		other.quantity_selected = quantity_selected;
-	}
-	with (obj_ingredient)
-	{
-		if selected
+		with (obj_shop_control)
 		{
-			x -= x_difference;
-			y -= y_difference;
-			stashed_count += other.quantity_selected;
-			selected = false;
-			with (obj_inventory) 
+			other.cost_owed = cost_owed;
+			other.quantity_selected = quantity_selected;
+		}
+		with (obj_ingredient)
+		{
+			if selected
 			{
-				ingredients_selected -= 1;
+				x -= x_difference;
+				y -= y_difference;
+				stashed_count += other.quantity_selected;
+				selected = false;
+				with (obj_inventory) 
+				{
+					ingredients_selected -= 1;
+				}
 			}
 		}
+		with (obj_controller)
+		{
+			money -= other.cost_owed;
+		}
+		confirm_buy = true;
 	}
-	with (obj_controller)
-	{
-		money -= other.cost_owed;
-	}
-	confirm_buy = true;
-	}
+	else
+	{ image_blend = c_red; }
 }
 else
 {
