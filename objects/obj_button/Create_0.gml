@@ -10,7 +10,7 @@ if y = 320
 {
 	image_index = 2;
 }
-if y = 112
+if y = 104
 {
 	image_index = 3;
 }

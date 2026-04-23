@@ -61,8 +61,8 @@
   ],
   "name":"rm_town_test_up",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Town",
+    "path":"folders/Rooms/Town.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

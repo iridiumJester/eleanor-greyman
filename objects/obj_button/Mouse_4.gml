@@ -74,15 +74,5 @@ else if image_index == 3
 }
 else
 {
-	if !instance_exists(obj_journal)
-	{ 
-		instance_create_layer(128, 0, "Instances", obj_journal);
-	}
-	else
-	{
-		with (obj_journal)
-		{
-			instance_destroy();
-		}
-	}
+	room = rm_recipe_book;
 }

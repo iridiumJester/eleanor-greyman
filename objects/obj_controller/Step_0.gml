@@ -56,22 +56,37 @@ if !instance_exists(obj_product)
 	}
 }
 
-with (obj_product) 
+if room == rm_bakery
 {
-    if (variable_instance_exists(id, "selected") && selected) 
+	with (obj_product) 
 	{
-        _count_true++;
-    }
+	    if (variable_instance_exists(id, "selected") && selected) 
+		{
+	        _count_true++;
+	    }
+	}
+}
+else if room == rm_recipe_book
+{
+	with (obj_product_recipe) 
+	{
+	    if (variable_instance_exists(id, "selected") && selected) 
+		{
+	        _count_true++;
+	    }
+	}
 }
 
 products_selected = _count_true;
 
 // create sell button 208, 320 152+(products_selected*56)
-if products_selected >= 1
+if products_selected >= 1 && room == rm_bakery
+{
 	if !sell_exists
 	{ 
 		instance_create_layer(152, 320, "Instances", obj_button);
 		sell_exists = true;
-	}
+	}	
+}
 	
 show_debug_message("Stash: " + string(stashed_product) + ", Real: " + string(product_count));

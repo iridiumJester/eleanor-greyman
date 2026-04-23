@@ -9,6 +9,7 @@ count = 0;
 stashed_count = 0;
 ingredients_selected = 0;
 ingredient_limit = 4;
+name = "Ingredient";
 
 x_difference = 0;
 y_difference = 192;
@@ -24,34 +25,40 @@ if y == 120
 			image_index = 0;
 			ingredient = 1;
 			y_difference = 224;
+			name = "Flour";
 			break;
 		case (112+(160*1)):
 			image_index = 1;
 			ingredient = 2;
 			x_difference = -32;
 			y_difference = 208;
+			name = "Sugar";
 			break;
 		case (112+(160*2)):
 			image_index = 2;
 			ingredient = 3;
 			x_difference = -96;
+			name = "Egg";
 			break;
 		case (112+(160*3)):
 			image_index = 3;
 			ingredient = 4;
 			x_difference = 144;
+			name = "Butter";
 			break;
 		case (112+(160*4)):
 			image_index = 4;
 			ingredient = 5;
 			x_difference = 96;
 			y_difference = 208;
+			name = "Water";
 			break;
 		case (112+(160*5)):
 			image_index = 5;
 			ingredient = 6;
 			x_difference = 48;
 			y_difference = 224;
+			name = "Cheese";
 			break;
 	}
 }
@@ -63,36 +70,42 @@ else if y == 256
 			image_index = 0+6;
 			ingredient = 7;
 			y_difference = 176;
+			name = "Yeast";
 			break;
 		case (112+(160*1)):
 			image_index = 1+6;
 			ingredient = 8;
 			x_difference = -48;
 			y_difference = 208;
+			name = "Chocolate";
 			break;
 		case (112+(160*2)):
 			image_index = 2+6;
 			ingredient = 9;
 			x_difference = -96;
 			y_difference = 224;
+			name = "Apple";
 			break;
 		case (112+(160*3)):
 			image_index = 3+6;
 			ingredient = 10;
 			x_difference = 96;
 			y_difference = 224;
+			name = "Pumpkin";
 			break;
 		case (112+(160*4)):
 			image_index = 4+6;
 			ingredient = 11;
 			x_difference = -288;
 			y_difference = 240;
+			name = "Salt";
 			break;
 		case (112+(160*5)):
 			image_index = 5+6;
 			ingredient = 12;
 			x_difference = -352;
 			y_difference = 240;
+			name = "Vanilla";
 			break;
 	}
 }

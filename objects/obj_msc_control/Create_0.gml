@@ -1,4 +1,3 @@
-audio_play_sound(msc_menu_wip, 3, true);
-
+play_music = false;
 theme_playing = false;
 

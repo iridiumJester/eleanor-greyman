@@ -47,8 +47,8 @@
   ],
   "name":"rm_kitchen",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Main",
+    "path":"folders/Rooms/Main.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

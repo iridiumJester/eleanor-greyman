@@ -60,8 +60,8 @@
   ],
   "name":"rm_town_center",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Town",
+    "path":"folders/Rooms/Town.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
