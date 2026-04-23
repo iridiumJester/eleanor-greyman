@@ -111,7 +111,6 @@ else if y == 256
 }
 else 
 {
-	sprite_index = spr_item_pl;
 	ingredient = 0;
 }
 

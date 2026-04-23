@@ -41,7 +41,7 @@ else
 {
 	// turn gray if empty
 	if count <= 3 && room == rm_shop { image_blend = #ff7070; }
-	else if count <= 0 && !selected { image_blend = empty_color; }
+	else if count <= 0 && !selected && room != rm_recipe_book { image_blend = empty_color; }
 	else { image_blend = -1; }
 }
 

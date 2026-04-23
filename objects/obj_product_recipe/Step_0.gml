@@ -12,8 +12,12 @@ if mouse_x <= x+20 && mouse_x >= x-20 && mouse_y <= y+32 && mouse_y >= y-20
 	{
 		selected = false;
 	}
-	else if _click && !selected && products_selected < 1
+	else if _click && !selected
 	{
+		with (obj_product_recipe)
+		{
+			if selected { selected = false; }
+		}
 		selected = true;
 	}
 }

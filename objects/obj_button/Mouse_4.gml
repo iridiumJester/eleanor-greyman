@@ -18,6 +18,9 @@ if image_index == 0
 		case (rm_shop):
 			room = rm_bakery;
 			break;
+		case (rm_recipe_book):
+			room = rm_bakery;
+			break;
 	}
 }
 else if image_index == 1

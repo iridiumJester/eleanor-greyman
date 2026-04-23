@@ -43,7 +43,7 @@ if !instance_exists(obj_product)
 	if product_count != 0 && room == rm_bakery
 	{
 		// spacing between instances
-		var _spacing = 56;
+		var _spacing = 112;
 
 		for (var i = 0; i < product_count; ++i) 
 		{
