@@ -10,7 +10,7 @@ if interacting
 }
 
 // show button
-with (obj_controller) {
+with (obj_main_control) {
 	if (obj_npc.interactable)
 	{
 		draw_sprite(spr_button_placeholder, 0, 464, 512);

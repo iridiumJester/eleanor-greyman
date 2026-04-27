@@ -1,6 +1,7 @@
 active_ingredients = [ 0,0,0,0,0 ];
 ingredients_selected = 0;
 ing_num = 0;
+product_selected = 0;
 
 // normal bread
 recipe_1 = [ 0,1,5,7,11 ];

@@ -19,12 +19,15 @@ ekey = false;
 menu_showing = false;
 gui_w = display_get_gui_width();
 
-// product
-product_count = 1;
-stashed_product = product_count;
+// products
 products_selected = 0;
 sell_exists = false;
-
+product_count = 1;
+stashed_product = product_count;
+existing_product = 0;
+product_1_count = 0;
+stashed_product_1 = product_1_count;
+existing_product_1 = 0;
 
 // speed for text scrolling in textboxes, change to suit your taste
 // (or add an in-game settings option for players to change it!)

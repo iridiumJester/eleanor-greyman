@@ -40,10 +40,18 @@ else if image_index == 1
 				}
 			}
 		}
-		with (obj_controller)
+		with (obj_main_control)
 		{
 			if product_count == stashed_product
-			{ stashed_product += 1; }
+			{ 
+				switch (obj_recipe_book.product_selected)
+				{
+					case (1):
+						stashed_product_1 += 1;
+						break;
+				}
+				stashed_product += 1;
+			}
 		}
 		confirm_bake = true;
 	}
@@ -57,7 +65,7 @@ else if image_index == 2
 			instance_destroy();
 		}
 	}
-	with (obj_controller)
+	with (obj_main_control)
 	{
 		product_count -= 1*products_selected;
 		money += 25*products_selected;

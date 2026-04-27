@@ -22,7 +22,7 @@ else
 	else { image_blend = -1; }
 
 // update count
-with (obj_controller)
+with (obj_main_control)
 {
 	other.products_selected = products_selected;
 }

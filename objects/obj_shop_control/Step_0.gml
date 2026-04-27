@@ -18,7 +18,7 @@ with (obj_inventory)
 cost_owed = quantity_selected*ingredients_selected*5;
 
 // prevent player from buying more than they can afford
-if cost_owed <= obj_controller.money
+if cost_owed <= obj_main_control.money
 { with (obj_shop_button) 
 	{ can_buy = true; } }
 else

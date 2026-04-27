@@ -8,7 +8,25 @@ else
 with (obj_recipe_book)
 {
 	if array_equals(active_ingredients, recipe_1)
-	{ other.can_bake = true; }
+	{ 
+		other.can_bake = true;
+		product_selected = 1;
+	}
+	else if array_equals(active_ingredients, recipe_2)
+	{ 
+		other.can_bake = true;
+		product_selected = 2;
+	}
+	else if array_equals(active_ingredients, recipe_3)
+	{ 
+		other.can_bake = true;
+		product_selected = 3;
+	}
+	else
+	{ 
+		other.can_bake = false;
+		product_selected = 0;
+	}
 }
 
 // finalizes count
@@ -23,9 +41,10 @@ if confirm_bake
 	{
 		active_ingredients = [0, 0, 0, 0, 0];
 	}
-	with (obj_controller)
+	with (obj_main_control)
 	{
 		product_count = stashed_product;
+		product_1_count = stashed_product_1;
 	}
 	can_bake = false;
 }

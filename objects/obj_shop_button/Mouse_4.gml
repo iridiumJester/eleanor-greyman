@@ -38,7 +38,7 @@ else if image_index == 2
 				}
 			}
 		}
-		with (obj_controller)
+		with (obj_main_control)
 		{
 			money -= other.cost_owed;
 		}
