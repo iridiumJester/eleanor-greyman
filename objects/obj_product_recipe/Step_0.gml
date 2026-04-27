@@ -25,8 +25,11 @@ else
 	if selected { image_blend = c_green; }
 	else { image_blend = -1; }
 
-// update count
-with (obj_controller)
+// update selected
+if selected
 {
-	other.products_selected = products_selected;
+	with (obj_recipe_control)
+	{
+		product_selected = other.image_index;
+	}
 }
