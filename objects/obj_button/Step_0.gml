@@ -45,6 +45,8 @@ if confirm_bake
 	{
 		product_count = stashed_product;
 		product_1_count = stashed_product_1;
+		product_2_count = stashed_product_2;
+		product_3_count = stashed_product_3;
 	}
 	can_bake = false;
 }

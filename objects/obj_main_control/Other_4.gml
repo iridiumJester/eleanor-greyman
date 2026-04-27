@@ -5,3 +5,5 @@ customer_exists = false;
 sell_exists = false;
 existing_product = 0;
 existing_product_1 = 0;
+existing_product_2 = 0;
+existing_product_3 = 0;

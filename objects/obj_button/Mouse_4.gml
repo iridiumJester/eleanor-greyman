@@ -49,6 +49,12 @@ else if image_index == 1
 					case (1):
 						stashed_product_1 += 1;
 						break;
+					case (2):
+						stashed_product_2 += 1;
+						break;
+					case (3):
+						stashed_product_3 += 1;
+						break;
 				}
 				stashed_product += 1;
 			}
@@ -62,16 +68,34 @@ else if image_index == 2
 	{
 		if selected
 		{
+			switch (image_index)
+			{
+				case (1):
+					with (obj_main_control)
+					{ stashed_product_1 -= 1; }
+					break;
+				case (2):
+					with (obj_main_control)
+					{ stashed_product_2 -= 1; }
+					break;
+				case (3):
+					with (obj_main_control)
+					{ stashed_product_3 -= 1; }
+					break;
+			}
 			instance_destroy();
 		}
 	}
 	with (obj_main_control)
 	{
-		product_count -= 1*products_selected;
+		stashed_product -= 1*products_selected;
 		money += 25*products_selected;
 		sell_exists = false;
 		customer_exists = false;
-		stashed_product = product_count;
+		product_count = stashed_product;
+		product_1_count = stashed_product_1;
+		product_2_count = stashed_product_2;
+		product_3_count = stashed_product_3;
 	}
 	with (obj_customer)
 	{
