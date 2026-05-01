@@ -1,6 +1,7 @@
 image_speed = 0;
 confirm_bake = false;
 can_bake = false;
+products_selected = 0;
 
 if y = 464 
 {

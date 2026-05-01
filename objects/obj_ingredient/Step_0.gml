@@ -23,6 +23,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 		{
 			ingredients_selected -= 1;
 		}
+		audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 2);
 	}
 	else if _click && !selected && ingredients_selected < ingredient_limit && _selectable
 	{
@@ -35,6 +36,7 @@ if mouse_x <= x+48 && mouse_x >= x-48 && mouse_y <= y+64 && mouse_y >= y-32
 		{
 			ingredients_selected += 1;
 		}
+		audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 3);
 	}
 }
 else

@@ -11,10 +11,12 @@ if mouse_x <= x+20 && mouse_x >= x-20 && mouse_y <= y+32 && mouse_y >= y-20
 	if _click && selected
 	{
 		selected = false;
+		audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 1.5);
 	}
 	else if _click && !selected && products_selected < 3
 	{
 		selected = true;
+		audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 3);
 	}
 }
 else

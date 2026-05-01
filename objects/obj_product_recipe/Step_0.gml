@@ -19,6 +19,7 @@ if mouse_x <= x+20 && mouse_x >= x-20 && mouse_y <= y+32 && mouse_y >= y-20
 			if selected { selected = false; }
 		}
 		selected = true;
+		audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 3);
 	}
 }
 else
