@@ -7,6 +7,9 @@ order_count_raw = random_range(0,6);
 x_variation = irandom_range(-4,4);
 y_variation = irandom_range(-4,4);
 
+selected_type = 0;
+selected_count = 0;
+
 // randomize order
 if order_count_raw < 3
 { order_count = 1; }

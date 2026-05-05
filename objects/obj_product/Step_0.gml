@@ -28,3 +28,21 @@ with (obj_main_control)
 {
 	other.products_selected = products_selected;
 }
+if selected
+{
+	switch (image_index)
+	{
+		case (1):
+			with (obj_order_control)
+			{ selected_type = 1; }
+			break;
+		case (2):
+			with (obj_order_control)
+			{ selected_type = 2; }
+			break;
+		case (3):
+			with (obj_order_control)
+			{ selected_type = 3; }
+			break;
+	}
+}

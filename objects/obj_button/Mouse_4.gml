@@ -82,50 +82,57 @@ else if image_index == 1
 // sell
 else if image_index == 2
 {
-	with (obj_product)
+	if can_sell
 	{
-		if selected
+		with (obj_product)
 		{
-			switch (image_index)
+			if selected
 			{
-				case (1):
-					with (obj_main_control)
-					{ stashed_product_1 -= 1; }
-					break;
-				case (2):
-					with (obj_main_control)
-					{ stashed_product_2 -= 1; }
-					break;
-				case (3):
-					with (obj_main_control)
-					{ stashed_product_3 -= 1; }
-					break;
+				switch (image_index)
+				{
+					case (1):
+						with (obj_main_control)
+						{ stashed_product_1 -= 1; }
+						break;
+					case (2):
+						with (obj_main_control)
+						{ stashed_product_2 -= 1; }
+						break;
+					case (3):
+						with (obj_main_control)
+						{ stashed_product_3 -= 1; }
+						break;
+				}
+				instance_destroy();
 			}
+		}
+		with (obj_main_control)
+		{
+			stashed_product -= 1*products_selected;
+			money += 25*products_selected;
+			other.products_selected = products_selected;
+			sell_exists = false;
+			customer_exists = false;
+			product_count = stashed_product;
+			product_1_count = stashed_product_1;
+			product_2_count = stashed_product_2;
+			product_3_count = stashed_product_3;
+		}
+		with (obj_customer)
+		{
 			instance_destroy();
 		}
-	}
-	with (obj_main_control)
-	{
-		stashed_product -= 1*products_selected;
-		money += 25*products_selected;
-		other.products_selected = products_selected;
-		sell_exists = false;
-		customer_exists = false;
-		product_count = stashed_product;
-		product_1_count = stashed_product_1;
-		product_2_count = stashed_product_2;
-		product_3_count = stashed_product_3;
-	}
-	with (obj_customer)
-	{
+		with (obj_order_control)
+		{
+			instance_destroy();
+		}
+		audio_play_sound(
+			sfx_sell_harmony, 2, false, obj_msc_control.sfx_volume, 
+			0, 0.9+(0.1*products_selected));
+		can_sell = false;
 		instance_destroy();
 	}
-	with (obj_order_control)
-	{
-		instance_destroy();
-	}
-	audio_play_sound(sfx_sell_harmony, 2, false, obj_msc_control.sfx_volume, 0, 0.9+(0.1*products_selected));
-	instance_destroy();
+	
 }
 else if image_index == 3 
 {
