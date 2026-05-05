@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_customer",
+  "%Name":"obj_order_control",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_customer",
+  "name":"obj_order_control",
   "overriddenProperties":[],
   "parent":{
-    "name":"People",
-    "path":"folders/Objects/People.yy",
+    "name":"Game Control",
+    "path":"folders/Objects/Game Control.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_customer_pl",
-    "path":"sprites/spr_customer_pl/spr_customer_pl.yy",
+    "name":"spr_order_bubble",
+    "path":"sprites/spr_order_bubble/spr_order_bubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,

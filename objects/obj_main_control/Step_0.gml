@@ -5,11 +5,13 @@ var _count_true = 0;
 // customer
 if room == rm_bakery && product_count > 0
 { 
-	if !customer_exists
+	if !customer_exists && !instance_exists(obj_order_control)
 	{ 
+		instance_create_layer(352, 224, "Customer", obj_order_control);
 		instance_create_layer(128, 152, "Customer", obj_customer);
 		customer_exists = true;
 	}
+	
 }
 
 // clock

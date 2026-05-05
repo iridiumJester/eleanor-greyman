@@ -120,6 +120,10 @@ else if image_index == 2
 	{
 		instance_destroy();
 	}
+	with (obj_order_control)
+	{
+		instance_destroy();
+	}
 	audio_play_sound(sfx_sell_harmony, 2, false, obj_msc_control.sfx_volume, 0, 0.9+(0.1*products_selected));
 	instance_destroy();
 }

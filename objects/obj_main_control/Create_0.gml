@@ -1,3 +1,5 @@
+randomize();
+
 // clock
 real_seconds = 0;
 minutes = 0;
@@ -34,6 +36,7 @@ existing_product_2 = 0;
 product_3_count = 0;
 stashed_product_3 = product_3_count;
 existing_product_3 = 0;
+
 
 // speed for text scrolling in textboxes, change to suit your taste
 // (or add an in-game settings option for players to change it!)
