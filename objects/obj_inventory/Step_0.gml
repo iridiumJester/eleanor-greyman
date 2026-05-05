@@ -6,7 +6,7 @@ if room == rm_kitchen
 	{
 		with (obj_button)
 		{
-			if y < 496
+			if y == 472
 			{ instance_destroy(); }
 		}
 		other.able_to_bake = false;

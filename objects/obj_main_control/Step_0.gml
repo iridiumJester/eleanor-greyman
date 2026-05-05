@@ -3,7 +3,7 @@ ekey = keyboard_check_pressed(ord("E"));
 var _count_true = 0;
 
 // customer
-if room == rm_bakery && product_count > 0
+if room == rm_bakery
 { 
 	if !customer_exists && !instance_exists(obj_order_control)
 	{ 

@@ -1,4 +1,5 @@
 randomize();
+last_room = 1;
 
 // clock
 real_seconds = 0;
