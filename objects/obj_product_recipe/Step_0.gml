@@ -26,6 +26,8 @@ else
 	if selected { image_blend = c_green; }
 	else { image_blend = -1; }
 
+// lock
+
 // update selected
 if selected
 {

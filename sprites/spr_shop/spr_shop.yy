@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_shop",
   "bboxMode":0,
-  "bbox_bottom":515,
+  "bbox_bottom":511,
   "bbox_left":16,
-  "bbox_right":1011,
+  "bbox_right":1007,
   "bbox_top":16,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"b1bc9e7c-6218-4633-9939-8e845c0b6e9a","name":"b1bc9e7c-6218-4633-9939-8e845c0b6e9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":16,
-  "gridY":16,
+  "gridX":8,
+  "gridY":8,
   "height":576,
   "HTile":false,
   "layers":[

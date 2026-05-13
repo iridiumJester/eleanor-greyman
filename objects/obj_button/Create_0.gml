@@ -8,15 +8,19 @@ if y = 464
 {
 	image_index = 1;
 }
-if y = 320
+else if y = 320
 {
 	image_index = 2;
 }
-if y = 104
+else if x = 64
+{
+	image_index = 6;
+}
+else if y = 104
 {
 	image_index = 3;
 }
-if y = 48
+else if y = 48
 {
 	image_index = 4;
 }

@@ -28,6 +28,12 @@ if image_index == 0
 			else
 			{ room = rm_kitchen; }
 			break;
+		case (rm_goals):
+			if obj_main_control.last_room == 1
+			{ room = rm_bakery; }
+			else
+			{ room = rm_kitchen; }
+			break;
 	}
 	if !audio_is_playing(sfx_success)
 	{
@@ -150,7 +156,7 @@ else if image_index == 3
 	room = rm_shop;
 	audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 2);
 }
-else
+else if image_index == 4
 {
 	if room = rm_bakery
 	{ with (obj_main_control) { last_room = 1; }}
@@ -158,5 +164,15 @@ else
 	{ with (obj_main_control) { last_room = 2; }}
 	
 	room = rm_recipe_book;
+	audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 4);
+}
+else
+{
+	if room = rm_bakery
+	{ with (obj_main_control) { last_room = 1; }}
+	else if room = rm_kitchen
+	{ with (obj_main_control) { last_room = 2; }}
+	
+	room = rm_goals;
 	audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 4);
 }
