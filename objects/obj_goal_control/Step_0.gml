@@ -1,6 +1,15 @@
+// for draw
+if !goal_1_complete 
+{ goal_1_completion = " (" + string(goal_1_arr_sum) + " / " + string(goal_1_target) + ")"; }
+else
+{ goal_1_completion = " (Done!)"; }
+if !goal_2_complete 
+{ goal_2_completion = " (" + string(goal_2_current) + " / " + string(goal_2_target) + ")"; }
+else
+{ goal_2_completion = " (Done!)"; }
+
 // array sum
-for (var i = 0; i < array_length(goal_1_arr); i++) 
-{ goal_1_arr_sum += goal_1_arr[i]; }
+goal_1_arr_sum = goal_1_arr[0] + goal_1_arr[1] + goal_1_arr[2] + goal_1_arr[3] + goal_1_arr[4];
 
 goal_2_current = obj_main_control.money;
 
@@ -21,5 +30,3 @@ if goal_1_arr_sum >= goal_1_target
 
 if goal_2_current >= 500
 { goal_2_complete = true; }
-
-show_debug_message(goal_1_arr);

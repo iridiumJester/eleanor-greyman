@@ -52,6 +52,7 @@ if !instance_exists(obj_product)
 		    // x position based on i
 		    var xx = 128 + (i * _spacing);
 		    var yy = 416;
+			if i > 7 { yy = 512; xx -= (8 * _spacing); }
 
 		    var _new_instance = instance_create_layer(xx, yy, "Instances", obj_product);
 		}

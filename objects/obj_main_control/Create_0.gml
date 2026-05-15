@@ -28,13 +28,13 @@ sell_exists = false;
 product_count = 9;
 stashed_product = product_count;
 existing_product = 0;
-product_1_count = 3;
+product_1_count = 2;
 stashed_product_1 = product_1_count;
 existing_product_1 = 0;
-product_2_count = 3;
+product_2_count = 2;
 stashed_product_2 = product_2_count;
 existing_product_2 = 0;
-product_3_count = 3;
+product_3_count = 2;
 stashed_product_3 = product_3_count;
 existing_product_3 = 0;
 
