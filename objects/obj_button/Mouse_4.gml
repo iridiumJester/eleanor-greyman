@@ -132,8 +132,7 @@ else if image_index == 2
 		}
 		with (obj_customer)
 		{
-			
-			instance_destroy();
+			doomed = true;
 		}
 		with (obj_order_control)
 		{

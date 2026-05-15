@@ -12,4 +12,5 @@ if room == rm_goals
 		goal_2_str + " (" + string(obj_main_control.money) + " / " + string(goal_2_target) + ")", 
 		c_black, c_black, c_black, c_black, 1);
 	NineSliceBoxStretch(spr_bar,156,268,156 + (328 * (goal_2_current / goal_2_target)), 268 + 24, 0);
+	draw_set_font(ft_normal);
 }
