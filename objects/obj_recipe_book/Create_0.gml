@@ -16,4 +16,4 @@ recipe_3 = [ 0,1,2,7,10 ];
 recipe_4 = [ 0,1,2,3,12 ];
 
 // chocolate cupcakes
-recipe_5 = [ 0,1,2,3,12 ];
+recipe_5 = [ 0,1,2,3,8 ];

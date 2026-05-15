@@ -36,10 +36,10 @@ switch (product_selected)
 		selected_name = "Vanilla Cupcakes";
 		break;
 	case (5):
-		ing_1 = 0;
-		ing_2 = 0;
-		ing_3 = 0;
-		ing_4 = 0;
-		selected_name = "5 - TBA";
+		ing_1 = obj_recipe_book.recipe_5[1];
+		ing_2 = obj_recipe_book.recipe_5[2];
+		ing_3 = obj_recipe_book.recipe_5[3];
+		ing_4 = obj_recipe_book.recipe_5[4];
+		selected_name = "Chocolate Cupcakes";
 		break;
 }

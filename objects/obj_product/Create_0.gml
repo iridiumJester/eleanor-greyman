@@ -26,6 +26,11 @@ with (obj_main_control)
 			other.image_index = 4;
 			existing_product_4 += 1;
 		}
+		else if product_5_count != existing_product_5
+		{ 
+			other.image_index = 5;
+			existing_product_5 += 1;
+		}
 		existing_product += 1;
 	}
 }

@@ -27,6 +27,11 @@ with (obj_recipe_book)
 		other.can_bake = true;
 		product_selected = 4;
 	}
+	else if array_equals(active_ingredients, recipe_5)
+	{ 
+		other.can_bake = true;
+		product_selected = 5;
+	}
 	else
 	{ 
 		other.can_bake = false;
@@ -53,6 +58,7 @@ if confirm_bake
 		product_2_count = stashed_product_2;
 		product_3_count = stashed_product_3;
 		product_4_count = stashed_product_4;
+		product_5_count = stashed_product_5;
 	}
 	can_bake = false;
 }

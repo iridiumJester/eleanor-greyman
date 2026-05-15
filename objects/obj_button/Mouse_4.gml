@@ -76,6 +76,9 @@ else if image_index == 1
 					case (4):
 						stashed_product_4 += 1;
 						break;
+					case (5):
+						stashed_product_5 += 1;
+						break;
 				}
 				stashed_product += 1;
 			}
