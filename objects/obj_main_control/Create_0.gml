@@ -15,7 +15,7 @@ customer_exists = false;
 draw_set_font(ft_normal);
 
 // currency
-money = 100;
+money = 200;
 
 // menu button
 ekey = false;
@@ -25,7 +25,7 @@ gui_w = display_get_gui_width();
 // products
 products_selected = 0;
 sell_exists = false;
-product_count = 9;
+product_count = 7;
 stashed_product = product_count;
 existing_product = 0;
 product_1_count = 2;
@@ -37,6 +37,9 @@ existing_product_2 = 0;
 product_3_count = 2;
 stashed_product_3 = product_3_count;
 existing_product_3 = 0;
+product_4_count = 1;
+stashed_product_4 = product_4_count;
+existing_product_4 = 0;
 
 
 // speed for text scrolling in textboxes, change to suit your taste

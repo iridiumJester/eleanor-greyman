@@ -11,8 +11,7 @@ else
 // array sum
 goal_1_arr_sum = goal_1_arr[0] + goal_1_arr[1] + goal_1_arr[2] + goal_1_arr[3] + goal_1_arr[4];
 
-goal_2_current = obj_main_control.money;
-
+// track customer type
 with (obj_customer)
 {
 	if doomed
@@ -24,9 +23,11 @@ with (obj_customer)
 	}
 }
 
+goal_2_current = obj_main_control.money;
+
 // complete conditions
 if goal_1_arr_sum >= goal_1_target
-{ goal_1_complete = true; }
+{ goal_1_complete = true; recipes_unlocked[3] = 1; }
 
 if goal_2_current >= 500
-{ goal_2_complete = true; }
+{ goal_2_complete = true; recipes_unlocked[4] = 1; }

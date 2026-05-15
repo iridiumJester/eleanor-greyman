@@ -44,5 +44,9 @@ if selected
 			with (obj_order_control)
 			{ selected_type = 3; }
 			break;
+		case (4):
+			with (obj_order_control)
+			{ selected_type = 4; }
+			break;
 	}
 }

@@ -10,4 +10,10 @@ recipe_1 = [ 0,1,5,7,11 ];
 recipe_2 = [ 0,1,2,4,9 ];
 
 // pumpkin bread
-recipe_3 = [ 0,1,2,3,10 ];
+recipe_3 = [ 0,1,2,7,10 ];
+
+// vanilla cupcakes
+recipe_4 = [ 0,1,2,3,12 ];
+
+// chocolate cupcakes
+recipe_5 = [ 0,1,2,3,12 ];

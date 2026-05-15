@@ -1,3 +1,6 @@
+// unlockables
+recipes_unlocked = [1,1,1,0,0];
+
 // goal 1
 goal_1_complete = false;
 goal_1_arr = [0,0,0,0,0];

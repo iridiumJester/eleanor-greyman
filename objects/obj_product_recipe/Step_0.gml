@@ -26,7 +26,11 @@ else
 	if selected { image_blend = c_green; }
 	else { image_blend = -1; }
 
-// lock
+if unlocked
+{
+	image_xscale = 0.5;
+	image_yscale = 0.5;
+}
 
 // update selected
 if selected
