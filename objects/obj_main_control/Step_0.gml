@@ -38,6 +38,11 @@ if (room != rm_menu)
 		hours = 1;
 	}
 }
+if time_limit-hours == 12
+{
+	alarm[0] = 1;
+}
+
 
 // create product in bakery
 if !instance_exists(obj_product)

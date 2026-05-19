@@ -4,7 +4,8 @@ last_room = 1;
 // clock
 real_seconds = 0;
 minutes = 0;
-hours = 6;
+hours = 9;
+time_limit = 13;
 am_pm = "AM"
 speed = 60;
 

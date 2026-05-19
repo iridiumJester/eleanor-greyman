@@ -1,2 +1,1 @@
-// room = rm_menu;
-// instance_destroy();
+game_restart();
