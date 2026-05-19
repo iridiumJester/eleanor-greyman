@@ -97,16 +97,3 @@ if products_selected >= 1 && room == rm_bakery
 	}	
 }
 	
-/* show_debug_message(
-	"Stash: " + string(stashed_product) + 
-	", Real: " + string(product_count) +
-	", Exist: " + string(existing_product) +
-	"|| Stash 1: " + string(stashed_product_1) + 
-	", Real 1: " + string(product_1_count) +
-	", Exist 1: " + string(existing_product_1) +
-	"|| Stash 2: " + string(stashed_product_2) + 
-	", Real 2: " + string(product_2_count) +
-	", Exist 2: " + string(existing_product_2) + 
-	"|| Stash 3: " + string(stashed_product_3) + 
-	", Real 3: " + string(product_3_count) +
-	", Exist 3: " + string(existing_product_3)); */

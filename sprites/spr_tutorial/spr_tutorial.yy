@@ -33,8 +33,9 @@
   "height":576,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0dea4343-789e-446a-ad5f-9816bfe8eb29","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"0dea4343-789e-446a-ad5f-9816bfe8eb29","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"73fa1932-db39-47a4-91cd-31e40e8e543e","blendMode":0,"displayName":"Text","isLocked":false,"name":"73fa1932-db39-47a4-91cd-31e40e8e543e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"3aab5840-5a91-4598-8c42-edf8f86f2594","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"3aab5840-5a91-4598-8c42-edf8f86f2594","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"05329696-3ac6-44df-9136-785a3ab4c0b4","blendMode":1,"displayName":"Layer 2","isLocked":false,"name":"05329696-3ac6-44df-9136-785a3ab4c0b4","opacity":40.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"29bb8be5-8256-416b-87ba-85efc9eccb5b","blendMode":0,"displayName":"default","isLocked":false,"name":"29bb8be5-8256-416b-87ba-85efc9eccb5b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tutorial",

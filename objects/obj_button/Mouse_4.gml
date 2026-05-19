@@ -7,6 +7,8 @@ if image_index == 0
 		case (rm_menu):
 		    if y == 416
 			{ game_end();}
+			else if y == 352
+			{ room = rm_tutorial; }
 			else
 			{ room = rm_bakery; audio_play_sound(sfx_success, 0, false, obj_msc_control.sfx_volume, 0, 2); }
 			break;
