@@ -16,6 +16,9 @@ y_variation = irandom_range(-4,4);
 
 selected_type = 0;
 selected_count = 0;
+active_products = [ 0,0,0,0 ];
+product_num = 0;
+order_correct = false;
 
 // randomize order
 if order_count_raw < 3

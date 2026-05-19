@@ -28,29 +28,23 @@ with (obj_main_control)
 {
 	other.products_selected = products_selected;
 }
-if selected
+if !tracked_in_order && selected
 {
-	switch (image_index)
+	with (obj_order_control)
 	{
-		case (1):
-			with (obj_order_control)
-			{ selected_type = 1; }
-			break;
-		case (2):
-			with (obj_order_control)
-			{ selected_type = 2; }
-			break;
-		case (3):
-			with (obj_order_control)
-			{ selected_type = 3; }
-			break;
-		case (4):
-			with (obj_order_control)
-			{ selected_type = 4; }
-			break;
-		case (5):
-			with (obj_order_control)
-			{ selected_type = 5; }
-			break;
+		active_products[first_zero] = other.image_index;
+	}
+	tracked_in_order = true;
+}
+else if tracked_in_order && !selected
+{
+	with (obj_order_control)
+	{
+		if index_of_current > -1
+		{
+			product_num = other.image_index;
+			active_products[index_of_current] = 0;
+			other.alarm[0] = 2;
+		}
 	}
 }
