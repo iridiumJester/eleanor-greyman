@@ -24,3 +24,7 @@ else if y = 48
 {
 	image_index = 4;
 }
+else if x == 96 && y == 528
+{
+	image_index = 7;
+}

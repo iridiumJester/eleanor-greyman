@@ -7,7 +7,7 @@ minutes = 0;
 hours = 9;
 time_limit = 13;
 am_pm = "AM"
-speed = 600;
+speed = 60;
 
 // customer
 customer_exists = false;

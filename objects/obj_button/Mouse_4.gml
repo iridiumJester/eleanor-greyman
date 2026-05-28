@@ -174,7 +174,7 @@ else if image_index == 4
 	room = rm_recipe_book;
 	audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 4);
 }
-else
+else if image_index == 6
 {
 	if room = rm_bakery
 	{ with (obj_main_control) { last_room = 1; }}
@@ -183,4 +183,8 @@ else
 	
 	room = rm_goals;
 	audio_play_sound(sfx_select, 0, false, obj_msc_control.sfx_volume, 0, 4);
+}
+else
+{
+	game_restart();
 }
