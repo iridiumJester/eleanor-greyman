@@ -29,5 +29,5 @@ goal_2_current = obj_main_control.money;
 if goal_1_arr_sum >= goal_1_target
 { goal_1_complete = true; recipes_unlocked[3] = 1; }
 
-if goal_2_current >= 500
+if goal_2_current >= goal_2_target
 { goal_2_complete = true; recipes_unlocked[4] = 1; }

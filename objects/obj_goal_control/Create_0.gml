@@ -12,7 +12,7 @@ goal_1_str = "Serve 1 of each customer.";
 // goal 2
 goal_2_complete = false;
 goal_2_current = 0;
-goal_2_target = 500;
+goal_2_target = 400;
 current_customer_type = 0;
 goal_2_completion = "";
-goal_2_str = "Save 500 gold.";
+goal_2_str = "Save 400 gold.";
