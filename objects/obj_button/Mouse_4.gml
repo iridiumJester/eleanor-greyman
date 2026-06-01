@@ -88,14 +88,14 @@ else if image_index == 1
 		confirm_bake = true;
 		if !audio_is_playing(sfx_success)
 		{
-		audio_play_sound(sfx_success, 1, false, obj_msc_control.sfx_volume);
+		audio_play_sound(sfx_success, 1, false, obj_msc_control.sfx_volume*2);
 		}
 	}
 	else
 	{
 		if !audio_is_playing(sfx_failure) && !audio_is_playing(sfx_success)
 		{
-		audio_play_sound(sfx_failure, 1, false, obj_msc_control.sfx_volume);
+		audio_play_sound(sfx_failure, 1, false, obj_msc_control.sfx_volume*2);
 		}
 	}
 }
